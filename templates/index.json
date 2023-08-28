@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "<strong>Don't Panic it's Organic<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -29,9 +29,9 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-244a785c-2bd3-4bf7-b6af-a664e2aa38ae",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
