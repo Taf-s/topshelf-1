@@ -11,9 +11,9 @@
     "spacing_grid_vertical": 12,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "vertical-lift",
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 8,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -27,18 +27,18 @@
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 8,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "standard",
+    "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
     "card_color_scheme": "background-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
-    "card_corner_radius": 0,
+    "card_corner_radius": 8,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
@@ -208,6 +208,17 @@
           "button": "#61ad8e",
           "button_label": "#ffffff",
           "secondary_button_label": "#61ad8e",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-62394418-658f-4ab4-88d3-6a557227c54d": {
+        "settings": {
+          "background": "#efddd0",
+          "background_gradient": "",
+          "text": "#554d3e",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
