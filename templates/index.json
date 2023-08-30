@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Don't Panic it's Organic<\/strong>",
+            "heading": "Browse our latest products",
             "heading_size": "h0"
           }
         },
@@ -15,7 +15,7 @@
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -27,17 +27,73 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_Image_2x_8817c332-9869-4faf-a6bd-b774250424be.jpg",
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/Hero_Image_2x_2d43a872-dbe5-49ef-a36a-d5d86e3f1f79.jpg",
+        "image_overlay_opacity": 100,
         "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "hero",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "8846e69f-1608-4c30-80f0-d1e8ec65dd7c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20826530152754__8846e69f-1608-4c30-80f0-d1e8ec65dd7c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/merch_2x_9a86cd48-f5f4-4e7c-b890-29b4b4f3cc9d.jpg",
+            "title": "Merch \/ Accessories",
+            "text": "<p>Premium Bud<\/p>",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "template--20826530152754__8846e69f-1608-4c30-80f0-d1e8ec65dd7c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bud_2x_95135da7-9534-4592-ac79-33078c038282.jpg",
+            "title": "High Quality Bud",
+            "text": "<p>Premium Bud<\/p>",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "template--20826530152754__8846e69f-1608-4c30-80f0-d1e8ec65dd7c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pre-rolls_2x_a9a58a5d-4edd-4930-9b9e-13df2e8cd3bd.jpg",
+            "title": "Famous Pre-Rolls",
+            "text": "<p>Premium Bud<\/p>",
+            "link_label": "Shop",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--20826530152754__8846e69f-1608-4c30-80f0-d1e8ec65dd7c-column-1",
+        "template--20826530152754__8846e69f-1608-4c30-80f0-d1e8ec65dd7c-column-2",
+        "template--20826530152754__8846e69f-1608-4c30-80f0-d1e8ec65dd7c-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -45,16 +101,16 @@
       "settings": {
         "title": "Weed Recommend",
         "heading_size": "h1",
-        "description": "<p>Latest greatest and most important stuff<\/p>",
+        "description": "<p>Latest, greatest and most important stuff<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -62,15 +118,65 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 36
+      }
+    },
+    "e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20826530152754__e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smoke Weed Everyday",
+            "heading_size": "h1"
+          }
+        },
+        "template--20826530152754__e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Sign up so you don’t miss out on our dank deals",
+            "text_style": "body"
+          }
+        },
+        "template--20826530152754__e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Sign Up",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20826530152754__e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd-heading-1",
+        "template--20826530152754__e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd-text-1",
+        "template--20826530152754__e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CTA_Banner_1_2x_de388e17-a99f-4c11-a3f1-2f228db7945c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "8846e69f-1608-4c30-80f0-d1e8ec65dd7c",
+    "featured_collection",
+    "e70a1c0b-cd96-41fe-b3eb-4c02f28dcddd"
   ]
 }
