@@ -27,12 +27,13 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Hero_Image_2x_8817c332-9869-4faf-a6bd-b774250424be.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-244a785c-2bd3-4bf7-b6af-a664e2aa38ae",
+        "color_scheme": "hero",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
