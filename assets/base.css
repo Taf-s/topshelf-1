@@ -1,3 +1,10 @@
+@font-face {
+  font-family: “FONT”;
+  src: url('{{ “OhnoBlazeface-18Point.woff2” | asset_url }}') format(“woff2”);
+}
+
+
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -96,7 +103,7 @@ html.no-js .no-js-hidden {
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0rem;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
@@ -113,19 +120,19 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 .utility-bar__grid.page-width {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 3rem;
   }
 
   .header.page-width,
   .utility-bar__grid.page-width {
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .page-width--narrow {
@@ -133,18 +140,18 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   }
 
   .page-width-desktop {
-    padding: 0;
+    padding: 0 3rem;
   }
 
   .page-width-tablet {
-    padding: 0 5rem;
+    padding: 0 3remrem;
   }
 }
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .page-width--narrow {
@@ -154,7 +161,19 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .header:not(.drawer-menu).page-width {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .page-width-desktop {
+    max-width: var(--page-width);
+    padding: 0 3rem;
   }
 }
 
@@ -2237,8 +2256,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 @media screen and (min-width: 990px) {
   body:has(.section-header .header:not(.drawer-menu)) .utility-bar .page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .announcement-bar-slider {
